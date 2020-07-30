@@ -1,0 +1,15 @@
+ #include <iostream>
+using namespace std;
+
+int main()
+{
+	int a,b=1,sum=0;
+	cin >> a;
+	do
+	{
+		sum += 2 * b - 1;
+		b++;
+	} while (b<=a);
+	cout << sum;
+	return 0;
+}
