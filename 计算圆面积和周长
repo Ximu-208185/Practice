@@ -1,0 +1,15 @@
+# include <iostream>
+using namespace std;
+#define PI 3.14
+int main()
+{
+	double r;
+	cin >> r;
+	double s;
+	s = PI * r * r;
+	cout << s << endl;
+	double len;
+	len = 2 * PI * r;
+	cout << len << endl;
+	return 0;
+}
